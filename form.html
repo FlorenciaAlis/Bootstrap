@@ -5,22 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactanos</title>
-    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="stylos.css">
 </head>
 <body>
-    <h1>deja tu email y comentario.</h1>
-    <h2>Nosotros te contactaremos</h2>
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    <h2>Rellena esto para nosotros!</h2>
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Nombre</label>
+        <input type="email" class="form-control" id="inputEmail4">
+      </div>
+      <div class="col-md-6">
+        <label for="inputPassword4" class="form-label">Apellido</label>
+        <input type="password" class="form-control" id="inputPassword4">
       </div>
       <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <label for="exampleFormControlInput1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <div class="col-12">
+        <label for="inputAddress" class="form-label">Direccion</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress2" class="form-label">Numero de telefono</label>
+        <input type="text" class="form-control">
+      </div>
+      <div class="col-md-6">
+        <label for="inputCity" class="form-label">Ciudad</label>
+        <input type="text" class="form-control" id="inputCity">
+      </div>
+      
+      </div>
+      <div class="col-md-2">
+        <label for="inputZip" class="form-label">Zip code</label>
+        <input type="text" class="form-control" id="inputZip">
+      </div>
+      <div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </div>  
     </form>
-</body>
+    <br>
+     <h5> Aprieta "enviar" y te contactaremos lo mas rapido posible!</h5>
+   </body>
 </html>
